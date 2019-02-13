@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="En">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Menu bar</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Menu bar</title>
 	<link rel="stylesheet" type="text/css" href="css/Ngrade_login.css"/>
 	<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>-->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css"/>
@@ -30,7 +30,6 @@
 					<li class="food">
 						<i>&gt;</i>
 						<a class="ti" href="#" onclick="function bringUpPage() {
-
 						}">Development</a>
 
 						<div class="prosmore hide">
@@ -95,9 +94,9 @@
 						<a class="ti" href="#">Design</a>
 
 						<div class="prosmore hide">
-							<span><em><a href="#">All Design</a> </em></span>
-							<span><em class="morehot"><a class="morehot" href="#">Web Design</a> </em></span>
-							<span><em><a href="#">Graphic Design</a> </em></span>
+							<span><em><a href="#" onclick="bringUpPage('subcat_pages/Design/AllDesign.html')">All Design</a> </em></span>
+							<span><em class="morehot"><a class="morehot" href="#" onclick="bringUpPage('subcat_pages/Design/WebDesign.html')">Web Design</a> </em></span>
+							<span><em><a href="#" onclick="bringUpPage('subcat_pages/Design/GraphicDesign.html')">Graphic Design</a> </em></span>
 							<span><em><a href="#">Design Tools</a> </em></span>
 							<span><em><a href="#">User Experience</a> </em></span>
 							<span><em><a href="#">Game Design</a> </em></span>
@@ -201,17 +200,17 @@
 			</div>
 		</div>
 	</div>
-	<div class="iframe-container" id="pageframe">
-		<iframe src="" frameborder="0" id="pageframesrc"></iframe>
-	</div>
-</div>
 
+</div>
+<div class="iframe-container" id="pageframe">
+	<iframe src="" frameborder="0" id="pageframesrc"></iframe>
+</div>
 
 <script type="text/javascript">
 	(function(){
-		
+
 		var $subblock = $(".subpage"), $head=$subblock.find('h2'), $ul = $("#proinfo"), $lis = $ul.find("li"), inter=false;
-		
+
 		$head.click(function(e){
 			e.stopPropagation();
 			if(!inter){
@@ -221,16 +220,15 @@
 			}
 			inter=!inter;
 		});
-		
+
 		$ul.click(function(event){
 			event.stopPropagation();
 		});
-		
+
 		$(document).click(function(){
 			$ul.hide();
 			inter=!inter;
 		});
-
 		$lis.hover(function(){
 			if(!$(this).hasClass('nochild')){
 				$(this).addClass("prosahover");
@@ -244,13 +242,11 @@
 				$(this).find(".prosmore").addClass('hide');
 			}
 		});
-		
-	})();
 
+	})();
 	function bringUpPage(pageName){
 		var page = pageName;
 		document.getElementById("pageframesrc").src=page;
-
 	}
 </script>
 
