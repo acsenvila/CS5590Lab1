@@ -57,7 +57,7 @@ li.goods{background-position:10px -235px}
 .prosul li.hotareas a.hot{background-position:right 0}
 .prosul li h2{padding-left:0;line-height:40px;display:inline;font-size:14px;font-weight:400;}
 .prosul li.prosahover h2{color:#d03322}
-.prosmore{padding:15px 0 15px 15px;position:absolute;z-index:999;left:210px;top:38px;background-color:#fff;border:2px #d03322 solid;border-left:0 none;width:214px;height:382px}
+.prosmore{padding:15px 0 15px 15px;position:absolute;z-index:999;left:210px;top:38px;background-color:#fff;border:2px #d03322 solid;border-left:0 none;width:300px;height:382px}
 .prosul .prosmore{text-align:left}
 .prosul .prosmore span{float:left;height:36px;width:107px;line-height:22px}
 .prosul li .prosmore a{height:18px;line-height:18px;padding:0 4px}
