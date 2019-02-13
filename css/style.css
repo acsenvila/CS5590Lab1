@@ -65,17 +65,11 @@ li.goods{background-position:10px -235px}
 .prosmore em{font-weight:400;padding-top:9px;display:inline-block}
 .prosmore em.morehot{background:url(../images/icon-hot-more.png) right top no-repeat;padding-right:22px}
 
-.iframe-container {
-    overflow: hidden;
-    padding-top: 56.25%;
-    position: relative;
-}
+.iframe-container {overflow: hidden; padding-top: 56.25%; position: relative;}
+.iframe-container iframe {border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%; }
 
-.iframe-container iframe {
-    border: 0;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
+.hr-md{border-radius:4px; margin: auto; width: 80%; min-width: 500px;}
+.subcat,#main{transition:margin-left .4s}
+.subcatHead{text-align: center; color: #9b0000; padding: 25px; margin: 25px; font-size: 6em; white-space:nowrap;}
+.subcatSubhead{color: #9b0000; font-size: 4em; padding: 10px; margin: 10px; white-space:nowrap; }
+.subcattext{font-size: 2em}
