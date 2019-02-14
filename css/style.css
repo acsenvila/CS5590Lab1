@@ -1,6 +1,11 @@
 @charset "utf-8";
 *{margin:0;padding:0;list-style-type:none;}
 a,img{border:0;color:#333;text-decoration:none;}
+body {
+    background-image: url("http://d.5857.com/ercidongm_20190109/007.jpg");;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 body{font:12px/180% Arial, Helvetica, sans-serif;}
 h1 {color: #3b3b3b; font-size: 3em;}
 .hide{display:none}
@@ -30,13 +35,15 @@ em,i,s{font-style:normal;}
 .subpage h2{background:url(../images/icon-dropdown.jpg) no-repeat 122px center;cursor:pointer}
 .subpage .prosul{display:none}
 .prosul{padding-left:3px;width:207px;margin-top:2px;_overflow:hidden;height:414px}
-.prosul li,.prosul i{background:url(../images/iconcatg.png) no-repeat;}
+
+
 li.food{background-position:10px 15px}
 li.enjoy{background-position:10px -35px}
 li.women{background-position:10px -85px}
 li.life{background-position:10px -135px}
 li.travel{background-position:10px -185px}
 li.goods{background-position:10px -235px}
+
 .prosul li{line-height:50px;height:50px;_overflow:hidden;border-bottom:1px #bb2d1e dashed;margin-right:3px;padding-left:38px}
 .prosul li.prosahover{border-bottom:1px #fff solid;background-color:#fff;margin-right:0;padding-right:3px;}
 .prosul a{color:#ffd0c0;padding-right:8px;_padding-right:6px;white-space:nowrap;display:inline-block;height:50px}
